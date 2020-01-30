@@ -4,7 +4,7 @@
 
 题目：给定一颗二叉树的头节点head，请按照大家看到的这种格式打印。
 
-![](C:\Users\MSII\Desktop\算法\Algorithm-notes\binaryTree\img\1.png)
+![](.\img\1.png)
 
 要求打印成：
 
@@ -71,7 +71,7 @@ function printBinatyTree(head){
 
 注意：为什么要用一个特殊字符表示二叉树节点值的结束？
 
-![](C:\Users\MSII\Desktop\算法\Algorithm-notes\binaryTree\img\2.png)
+![](.\img\2.png)
 
 如果不用特殊符号表示值的结束，则这两颗数的序列化结果为：123###，说明不用特殊字符表示节点值结束会产生歧义。
 
@@ -80,5 +80,5 @@ function printBinatyTree(head){
 1. 将字符串str转化为数组。
 2. 根据序列化采用的方式，对数组进行反序列化遍历。
 
-![](C:\Users\MSII\Desktop\算法\Algorithm-notes\binaryTree\img\3.png)
+![](.\img\3.png)
 
